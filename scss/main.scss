@@ -2,7 +2,7 @@
 // endbower
 
 $pink: #ff00ae;
-$teal: #00e4ff;
+
 
 body {
     background: #fafafa;
@@ -35,8 +35,10 @@ button{
     cursor: pointer;
     -webkit-appearance: none;
     outline: none;
+    border: 3px solid $pink;
     &:hover{
-        background: $teal;
+        background: #FFF;
+        color: $pink;
     }
 }
 
