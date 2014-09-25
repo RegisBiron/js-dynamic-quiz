@@ -139,7 +139,7 @@ function endText(){
         getWrongAnswers();
     }
     else{
-        p2.innerHTML = 'Have Mercy! So you have never attended a Jesse & The Rippers gig, but at least you have seen about the show.';
+        p2.innerHTML = 'Have Mercy! So you have never attended a Jesse & The Rippers gig, but at least you have seen the show.';
         questionWrapper.appendChild(p3);
         p3.innerHTML = 'Here is what you answered incorrectly:';
         getWrongAnswers();
